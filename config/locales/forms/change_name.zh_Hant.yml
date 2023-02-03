@@ -3,3 +3,10 @@ en:
     label:
       forms_change_name_form:
         name: 您的表單名稱？
+  activemodel:
+    errors:
+      models:
+        forms/change_name_form:
+          attributes:
+            name:
+              blank: 輸入表單名稱
