@@ -1,1 +1,9 @@
-{}
+address_settings:
+  hint: 選擇所有適用的項目
+activemodel:
+  errors:
+    models:
+      page:
+        attributes:
+          question_text:
+            blank: 問題內容不能為空白
