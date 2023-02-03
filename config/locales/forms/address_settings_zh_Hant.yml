@@ -1,1 +1,7 @@
-{}
+activemodel:
+  errors:
+    models:
+      forms/address_settings_form:
+        attributes:
+          base:
+            blank: 選擇您預期的收件地址
