@@ -1,1 +1,5 @@
-{}
+helpers:
+  label:
+    forms_contact_details_form:
+      contact_details_supplied_options:
+        supply_email: 電子郵件
