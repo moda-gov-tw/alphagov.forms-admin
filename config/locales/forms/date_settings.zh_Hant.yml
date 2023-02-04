@@ -1,0 +1,9 @@
+en:
+  activemodel:
+    errors:
+      models:
+        forms/date_settings_form:
+          attributes:
+            input_type:
+              blank: ''
+              inclusion: ''
