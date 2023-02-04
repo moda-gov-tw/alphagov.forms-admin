@@ -1,0 +1,18 @@
+en:
+  errors:
+    messages:
+      url: ''
+  helpers:
+    label:
+      forms_privacy_policy_form:
+        privacy_policy_url: ''
+    hint:
+      forms_privacy_policy_form:
+        privacy_policy_url: |
+  activemodel:
+    errors:
+      models:
+        forms/privacy_policy_form:
+          attributes:
+            privacy_policy_url:
+              blank: ''
