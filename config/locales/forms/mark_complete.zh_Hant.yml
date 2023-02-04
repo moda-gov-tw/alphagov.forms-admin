@@ -1,0 +1,8 @@
+en:
+  activemodel:
+    errors:
+      models:
+        forms/mark_complete_form:
+          attributes:
+            mark_complete:
+              blank: ''
