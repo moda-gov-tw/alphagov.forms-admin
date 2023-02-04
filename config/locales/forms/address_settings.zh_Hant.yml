@@ -1,0 +1,12 @@
+en:
+  activemodel:
+    errors:
+      models:
+        forms/address_settings_form:
+          attributes:
+            base:
+              blank: ''
+            uk_address:
+              inclusion: ''
+            international_address:
+              inclusion: ''
