@@ -1,0 +1,14 @@
+en:
+  helpers:
+    label:
+      forms_delete_confirmation_form:
+        confirm_deletion_options:
+          true: ""
+          false: ""
+  activemodel:
+    errors:
+      models:
+        forms/delete_confirmation_form:
+          attributes:
+            confirm_deletion:
+              blank: ''
