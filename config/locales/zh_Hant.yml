@@ -1,0 +1,321 @@
+en:
+  activemodel:
+    errors:
+      models:
+        page:
+          attributes:
+            question_text:
+              blank: ''
+  address_settings:
+    hint: ''
+  back_link:
+    form_create: ''
+    form_view: ''
+    forms: ''
+  contact_details:
+    new:
+      body_html: |
+      hint: ''
+      title: ''
+  contact_govuk_forms: ''
+  continue: ''
+  declaration_form:
+    new:
+      body_html: |
+  email_code_sent:
+    body_html: |
+    continue: ''
+  email_code_success:
+    body_html: ''
+    continue: ''
+  footer:
+    accessibility_statement: ''
+    cookies: ''
+    helpful_links: ''
+    privacy: ''
+  forbidden:
+    body_html: ''
+    title: ''
+  form_url_component:
+    copy_to_clipboard: ''
+    form_url: ''
+  forms:
+    delete_form: ''
+    form_overview:
+      edit: ''
+      live_title: ''
+      move_down_html: ''
+      move_up_html: ''
+      title: ''
+      your_questions: ''
+    task_lists:
+      section_1:
+        add_or_edit_questions: ''
+        add_what_happens_next: ''
+        change_name: ''
+        declaration: ''
+        title: ''
+      section_2:
+        confirm_email: ''
+        hint_text_html: ''
+        set_email: ''
+        title: ''
+      section_3:
+        contact_details: ''
+        privacy_policy: ''
+        title: ''
+      section_4:
+        make_live: ''
+        title: ''
+  forms_delete_confirmation_form:
+    confirm_deletion_form: ''
+    confirm_deletion_page: ''
+  header:
+    product_name: ''
+    sign_out: ''
+  helpers:
+    hint:
+      page:
+        answer_type: ''
+        hint_text:
+          address: ''
+          checkbox: ''
+          date: ''
+          default: ''
+          email: ''
+          long_text: ''
+          national_insurance_number: ''
+          number: ''
+          organisation_name: ''
+          phone_number: ''
+          radio: ''
+          single_line: ''
+        question_short_name: ''
+        question_text:
+          address: ''
+          checkbox: ''
+          date: ''
+          default: ''
+          email: ''
+          long_text: ''
+          national_insurance_number: ''
+          number: ''
+          organisation_name: ''
+          phone_number: ''
+          radio: ''
+          single_line: ''
+    label:
+      forms_make_live_form:
+        confirm_make_live: ''
+      page:
+        address_settings_options:
+          input_types:
+            international_address: ''
+            uk_address: ''
+          names:
+            international_addresses: ''
+            uk_addresses: ''
+            uk_and_international_addresses: ''
+        answer_type_options:
+          descriptions:
+            address: ''
+            date: ''
+            email: ''
+            long_text: ''
+            name: ''
+            national_insurance_number: ''
+            number: ''
+            organisation_name: ''
+            phone_number: ''
+            selection: ''
+            single_line: ''
+            text: ''
+          input_type: ''
+          names:
+            address: ''
+            date: ''
+            email: ''
+            long_text: ''
+            name: ''
+            national_insurance_number: ''
+            number: ''
+            organisation_name: ''
+            phone_number: ''
+            selection: ''
+            single_line: ''
+            text: ''
+          optional: ''
+          optional_no: ''
+          optional_yes: ''
+          title: ''
+        date_settings_options:
+          input_types:
+            date_of_birth: ''
+            other_date: ''
+          names:
+            date_of_birth: ''
+            other_date: ''
+        hint_text: ''
+        name_settings_options:
+          hints:
+            first_and_last_name: ''
+            first_middle_and_last_name: ''
+            full_name: ''
+            input_type: ''
+            title: ''
+          input_types:
+            first_and_last_name: ''
+            first_middle_and_last_name: ''
+            full_name: ''
+          legends:
+            input_type: ''
+            title: ''
+          names:
+            'false': ''
+            first_and_last_name: ''
+            first_middle_and_last_name: ''
+            full_name: ''
+            'true': ''
+          title_needed:
+            'false': ''
+            name: ''
+            'true': ''
+        question_short_name: ''
+        question_text: ''
+        text_settings_options:
+          names:
+            long_text: ''
+            single_line: ''
+  home:
+    create_a_form: ''
+    form_name_heading: ''
+    form_status_heading: ''
+    main_heading: ''
+    preview: ''
+    your_forms: ''
+  internal_server_error:
+    body: ''
+    title: ''
+  live_form_warning:
+    notification_content: |
+    notification_heading: |
+    notification_title: ''
+  make_live:
+    confirmation:
+      body_html: |
+      continue_link: ''
+      form_name: ''
+    new:
+      body_html: |
+  mark_complete:
+    'false': ''
+    hint: ''
+    legend: ''
+    'true': ''
+  not_found:
+    body: |
+    title: ''
+  page_options_service:
+    answer_type: ''
+    date: ''
+    hint_text: ''
+    name_type:
+      title_not_selected: ''
+      title_selected: ''
+    selection_type:
+      default: ''
+      none_of_the_above: ''
+      only_one_option: ''
+  page_titles:
+    address_settings: ''
+    change_name_form: ''
+    confirm_email_form: ''
+    confirm_email_success: ''
+    contact_details_form: ''
+    date_settings: ''
+    declaration_form: ''
+    email_code_sent: ''
+    error_prefix: ''
+    forbidden: ''
+    home: ''
+    internal_server_error: ''
+    make_live_form: ''
+    name_settings: ''
+    new_page_form: ''
+    not_found: ''
+    privacy_policy_form: ''
+    service_unavailable: ''
+    set_email_form: ''
+    text_settings: ''
+    type_of_answer: ''
+    what_happens_next_form: ''
+    your_form_is_live: ''
+  pages:
+    add_rules_legend: ''
+    delete_question: ''
+    go_to_your_questions: ''
+    heading: ''
+    index:
+      add_question: ''
+      mark_complete:
+        legend: ''
+      title: ''
+    make_optional_hint: ""
+    make_optional_text: ''
+    optional: ""
+    question: ''
+    submit_add: ''
+    submit_edit: ''
+    submit_save: ''
+  phase_banner:
+    after_link: ''
+    before_link: ''
+    link: ''
+  privacy_policy_form:
+    body_html: |
+    heading: ''
+    submit_button: ''
+  save_and_continue: ''
+  selections_settings:
+    add_another: ''
+    add_options: ''
+    add_options_hint: ''
+    cannot_add_more_options: ''
+    heading: ''
+    include_none_of_the_above: ''
+    list_settings: ''
+    'no': ''
+    only_one_option: ''
+    option: ''
+    options_title: ''
+    remove_html: ''
+    'yes': ''
+  service_unavailable:
+    body_html: ""
+    title: ''
+  set_email_form:
+    new:
+      body_html: |
+  show_live_form:
+    contact_details: ''
+    declaration: ''
+    declaration_description: ''
+    privacy_policy_link: ''
+    questions: ''
+    questions_link: ''
+    submission_email: ''
+    support_email: ''
+    support_phone: ''
+    support_url: ''
+    what_happens_next: ''
+    what_happens_next_description: ''
+    what_is_declaration: ''
+    what_is_what_happens_next: ''
+  skip_to_main_content: ''
+  status_tag_description_component:
+    status: ''
+  task_statuses:
+    cannot_start: ''
+    completed: ''
+    in_progress: ''
+    not_started: ''
