@@ -1,0 +1,18 @@
+en:
+  helpers:
+    label:
+      forms_submission_email_form:
+        temporary_submission_email: ''
+        email_code: ''
+  activemodel:
+    errors:
+      models:
+        forms/submission_email_form:
+          attributes:
+            temporary_submission_email:
+              blank: ''
+              invalid_email: ''
+              non_govuk_email: ''
+            email_code:
+              invalid_email_code: ''
+              email_code_mismatch: ''
