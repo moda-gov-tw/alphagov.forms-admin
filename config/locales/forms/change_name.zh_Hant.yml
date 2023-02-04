@@ -1,0 +1,16 @@
+en:
+  helpers:
+    label:
+      forms_change_name_form:
+        name: ''
+    hint:
+      forms_change_name_form:
+        name: |
+  activemodel:
+    errors:
+      models:
+        forms/change_name_form:
+          attributes:
+            name:
+              blank: ''
+
