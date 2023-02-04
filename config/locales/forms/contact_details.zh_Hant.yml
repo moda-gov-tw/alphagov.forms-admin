@@ -1,0 +1,39 @@
+en:
+  helpers:
+    label:
+      forms_contact_details_form:
+        contact_details_supplied_options:
+          supply_email: ''
+          supply_phone: ''
+          supply_link: ''
+        email: ''
+        phone: ''
+        link_href: ''
+        link_text: ''
+        submit: ''
+    hint:
+      forms_contact_details_form:
+        link_href: ''
+        link_text: ''
+  activemodel:
+    errors:
+      models:
+        forms/contact_details_form:
+          attributes:
+            email:
+              blank: ''
+              invalid_email: ''
+              non_govuk_email: ''
+            phone:
+              blank: ''
+              too_long: ''
+            link_href:
+              blank: ''
+              url: ''
+              too_long: ''
+            link_text:
+              blank: ''
+              too_long: ''
+            contact_details_supplied:
+              must_be_supply_contact_details: ''
+
