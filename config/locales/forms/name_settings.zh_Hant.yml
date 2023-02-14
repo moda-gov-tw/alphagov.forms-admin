@@ -5,9 +5,9 @@ en:
         forms/name_settings_form:
           attributes:
             input_type:
-              blank: ''
-              inclusion: ''
+              blank: '選擇您收集姓名的方式'
+              inclusion: '選擇您收集姓名的方式'
             title_needed:
-              blank: ''
-              inclusion: ''
+              blank: '如果您需要標題的話，請選擇「是」'
+              inclusion: '選擇「是」或「否」'
 
