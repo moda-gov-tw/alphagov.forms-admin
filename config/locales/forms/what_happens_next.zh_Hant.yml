@@ -2,12 +2,12 @@ en:
   helpers:
     label:
       forms_what_happens_next_form:
-        what_happens_next_text: ''
+        what_happens_next_text: '請輸入說明，告訴使用者下一步需要做些甚麼'
   activemodel:
     errors:
       models:
         forms/what_happens_next_form:
           attributes:
             what_happens_next_text:
-              too_long: ''
-              blank: ''
+              too_long: '用來說明下一步的文字不得超過 2,000 字長'
+              blank: '請輸入關於下一步的說明'
