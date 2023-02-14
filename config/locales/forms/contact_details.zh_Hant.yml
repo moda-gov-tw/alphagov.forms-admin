@@ -3,37 +3,37 @@ en:
     label:
       forms_contact_details_form:
         contact_details_supplied_options:
-          supply_email: ''
-          supply_phone: ''
-          supply_link: ''
-        email: ''
-        phone: ''
-        link_href: ''
-        link_text: ''
-        submit: ''
+          supply_email: '電子郵件'
+          supply_phone: '電話號碼'
+          supply_link: '線上聯絡連結'
+        email: '請輸入電子郵件地址'
+        phone: '請輸入電話號碼與開放通話時間'
+        link_href: '請輸入連結'
+        link_text: '您要如何描述此連結？'
+        submit: 'wejwihaklsjfkljaslkfj'
     hint:
       forms_contact_details_form:
-        link_href: ''
-        link_text: ''
+        link_href: '例如：https://gov.uk/contact-form'
+        link_text: '例如：「線上聯絡表單」'
   activemodel:
     errors:
       models:
         forms/contact_details_form:
           attributes:
             email:
-              blank: ''
-              invalid_email: ''
-              non_govuk_email: ''
+              blank: '請輸入電子郵件地址'
+              invalid_email: '請輸入正確格式的電子郵件地址，例如：name@example.com'
+              non_govuk_email: '請輸入以 .gov.uk 為結尾的電子郵件地址'
             phone:
-              blank: ''
-              too_long: ''
+              blank: '請輸入電話號碼與開放通話時間'
+              too_long: '電話號碼相關資訊最多不超過 500 字元'
             link_href:
-              blank: ''
-              url: ''
-              too_long: ''
+              blank: '請輸入線上聯絡連結'
+              url: '請以正確格式輸入連結，例如：https://www.gov.uk/contact'
+              too_long: '連結不得超過 120 個字元長'
             link_text:
-              blank: ''
-              too_long: ''
+              blank: '請輸入線上聯絡連結的敘述'
+              too_long: '連結的敘述不得超過 120 個字元長'
             contact_details_supplied:
-              must_be_supply_contact_details: ''
+              must_be_supply_contact_details: '選擇至少一個選項'
 
