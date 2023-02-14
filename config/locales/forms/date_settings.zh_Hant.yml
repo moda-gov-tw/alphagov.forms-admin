@@ -5,5 +5,5 @@ en:
         forms/date_settings_form:
           attributes:
             input_type:
-              blank: ''
-              inclusion: ''
+              blank: '選擇「是」，如果您正在詢問出生日期'
+              inclusion: '選擇「是」或「否」'
