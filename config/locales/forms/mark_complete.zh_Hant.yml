@@ -5,4 +5,4 @@ en:
         forms/mark_complete_form:
           attributes:
             mark_complete:
-              blank: ''
+              blank: '您必須選擇一個選項'
