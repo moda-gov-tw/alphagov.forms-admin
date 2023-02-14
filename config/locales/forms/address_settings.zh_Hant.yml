@@ -5,8 +5,8 @@ en:
         forms/address_settings_form:
           attributes:
             base:
-              blank: ''
+              blank: '選擇您願意接收訊息的網址'
             uk_address:
-              inclusion: ''
+              inclusion: '選擇「英國網址」或「國際網址」'
             international_address:
-              inclusion: ''
+              inclusion: '選擇「英國網址」或「國際網址」'
