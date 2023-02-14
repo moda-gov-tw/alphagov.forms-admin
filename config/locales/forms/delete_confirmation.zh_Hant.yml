@@ -3,12 +3,12 @@ en:
     label:
       forms_delete_confirmation_form:
         confirm_deletion_options:
-          true: ""
-          false: ""
+          true: "是"
+          false: "否"
   activemodel:
     errors:
       models:
         forms/delete_confirmation_form:
           attributes:
             confirm_deletion:
-              blank: ''
+              blank: '您必須選擇一個選項'
