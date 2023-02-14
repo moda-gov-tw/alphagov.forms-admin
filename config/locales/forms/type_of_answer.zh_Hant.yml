@@ -5,4 +5,4 @@ en:
         forms/type_of_answer_form:
           attributes:
             answer_type:
-              blank: ''
+              blank: '選擇您所需要的回答的類型'
