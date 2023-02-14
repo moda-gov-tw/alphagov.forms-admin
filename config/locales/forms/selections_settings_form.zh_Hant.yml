@@ -5,7 +5,7 @@ en:
         forms/selections_settings_form:
           attributes:
             selection_options:
-              blank: ''
-              uniqueness: ''
-              minimum: ''
-              maximum: ''
+              blank: '為每個選項加入說明'
+              uniqueness: '選項名稱不能重複'
+              minimum: '請輸入至少兩個選項'
+              maximum: '您最多只能新增二十個選項'
