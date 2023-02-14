@@ -1,18 +1,19 @@
 en:
   errors:
     messages:
-      url: ''
+      url: '請以正確格式輸入連結，例如：https://www.gov.uk/contact'
   helpers:
     label:
       forms_privacy_policy_form:
-        privacy_policy_url: ''
+        privacy_policy_url: '請為此表格輸入隱私條款'
     hint:
       forms_privacy_policy_form:
-        privacy_policy_url: |
+        privacy_policy_url: |-
+          例如：https://www.gov.uk/help/privacy-notice
   activemodel:
     errors:
       models:
         forms/privacy_policy_form:
           attributes:
             privacy_policy_url:
-              blank: ''
+              blank: '請輸入隱私條款的連結'
