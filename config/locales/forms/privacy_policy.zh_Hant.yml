@@ -5,7 +5,7 @@ en:
   helpers:
     label:
       forms_privacy_policy_form:
-        privacy_policy_url: '請為此表格輸入隱私條款'
+        privacy_policy_url: '請為此表單輸入隱私條款'
     hint:
       forms_privacy_policy_form:
         privacy_policy_url: |-
