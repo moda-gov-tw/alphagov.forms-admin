@@ -5,117 +5,150 @@ en:
         page:
           attributes:
             question_text:
-              blank: ''
+              blank: '問題內容不能為空白'
   address_settings:
-    hint: ''
+    hint: '選擇所有適用的項目'
   back_link:
-    form_create: ''
-    form_view: ''
-    forms: ''
+    form_create: '回到新增表單'
+    form_view: '回到您的表單'
+    forms: '回到您的表單'
   contact_details:
     new:
       body_html: |
-      hint: ''
-      title: ''
-  contact_govuk_forms: ''
-  continue: ''
+        <p class="govuk-body">
+          您至少需要提供一種當使用者填寫此表單有問題的時候，能夠聯繫您的方式。
+        </p>
+
+        <p class="govuk-body">
+          聯絡資訊會顯示在每一頁表單最下方。
+        </p>
+      hint: '選擇至少一個選項'
+      title: '使用者填寫此表單的時候，如何尋求協助？'
+  contact_govuk_forms: '聯繫GOV.UK Forms團隊'
+  continue: '繼續'
   declaration_form:
     new:
       body_html: |
+        <p class="govuk-body">
+          當某人完成了表單中的所有問題，
+          會有一個頁面列出他們所有的回答。
+          在他們送出回答之前，
+          他們可以再次確認所有的回答。
+        </p>
+        <p class="govuk-body">
+          您可以在此頁面中加入一個宣告，
+          使用者必須同意此宣示，以表示他們在送出回答前，
+          了解相關的規定。
+        </p>
+        <p class="govuk-body">
+          您可能會想要加入一個宣告，讓使用者確認他們提供的資料無誤
+          或是他們了解提供錯誤資訊的責任。
+        </p>
+
+        <h2 class="govuk-heading-s">例如</h2>
+
+        <div class="govuk-inset-text">
+          如果您送出此表單，表示您確認，您已經盡可能提供正確無誤的資訊。
+        </div>
   email_code_sent:
     body_html: |
-    continue: ''
+      <p class="govuk-body">我們已經送出驗證碼到您的信箱： %{temp_email}。</p>
+      <p class="govuk-body">請向收件人詢問此驗證碼。您需要輸入此驗證碼以驗證此信箱。</p>
+    continue: '繼續新增表單'
   email_code_success:
-    body_html: ''
-    continue: ''
+    body_html: '<p class="govuk-body">完成後的表單會被寄到：%{submission_email}。</p>
+
+      '
+    continue: '繼續新增表單'
   footer:
-    accessibility_statement: ''
-    cookies: ''
-    helpful_links: ''
-    privacy: ''
+    accessibility_statement: '無障礙聲明'
+    cookies: 'Cookies'
+    helpful_links: '有用的連結'
+    privacy: '隱私'
   forbidden:
-    body_html: ''
-    title: ''
+    body_html: '此頁面並不屬於您的組織，因此您沒有權限可以閱讀這個頁面。%{link} 如果您認為此結果有誤。'
+    title: '您無法閱讀此頁面'
   form_url_component:
-    copy_to_clipboard: ''
-    form_url: ''
+    copy_to_clipboard: '網址已複製到剪貼簿'
+    form_url: '表單網址'
   forms:
-    delete_form: ''
+    delete_form: '刪除表單'
     form_overview:
-      edit: ''
-      live_title: ''
-      move_down_html: ''
-      move_up_html: ''
-      title: ''
-      your_questions: ''
+      edit: '編輯'
+      live_title: '您的表單'
+      move_down_html: '往下移動 <span class="govuk-visually-hidden">%{title}</span>'
+      move_up_html: '往上移動 <span class="govuk-visually-hidden">%{title}</span>'
+      title: '建立表單'
+      your_questions: '您的提問'
     task_lists:
       section_1:
-        add_or_edit_questions: ''
-        add_what_happens_next: ''
-        change_name: ''
-        declaration: ''
-        title: ''
+        add_or_edit_questions: '新增並編輯您的提問'
+        add_what_happens_next: '請輸入關於下一步的說明'
+        change_name: '編輯您的表單的名稱'
+        declaration: '新增宣告以取得使用者的同意'
+        title: '建立您的表單'
       section_2:
-        confirm_email: ''
-        hint_text_html: ''
-        set_email: ''
-        title: ''
+        confirm_email: '輸入電子郵件中的驗證碼'
+        hint_text_html: '完成後的表單會寄送到：<br> %{submission_email}'
+        set_email: '設定表單完成後要傳送的電子郵件信箱'
+        title: '設定電子郵件信箱以接收完成的表單'
       section_3:
-        contact_details: ''
-        privacy_policy: ''
-        title: ''
+        contact_details: '留下聯絡資訊以提供支援服務'
+        privacy_policy: '為此表單輸入隱私條款的連結'
+        title: '提供隱私條款與聯絡資訊'
       section_4:
-        make_live: ''
-        title: ''
+        make_live: '將您的表單上線'
+        title: '將您的表單上線'
   forms_delete_confirmation_form:
-    confirm_deletion_form: ''
-    confirm_deletion_page: ''
+    confirm_deletion_form: '您確定要刪除此表單嗎？'
+    confirm_deletion_page: '您確定要刪除此頁面嗎？'
   header:
-    product_name: ''
-    sign_out: ''
+    product_name: '表單'
+    sign_out: '登出'
   helpers:
     hint:
       page:
-        answer_type: ''
+        answer_type: '確認使用者的回覆符合指定的格式。'
         hint_text:
-          address: ''
-          checkbox: ''
-          date: ''
-          default: ''
-          email: ''
-          long_text: ''
-          national_insurance_number: ''
-          number: ''
-          organisation_name: ''
-          phone_number: ''
-          radio: ''
-          single_line: ''
-        question_short_name: ''
+          address: '您可以用提示來告知使用者，您將會如何使用他們的地址。例如：「我們會將您的駕照寄到此地址。」'
+          checkbox: '您可以使用提示來幫助使用者回答提問。對於某些多重選擇的問題，您可能需要加上「選擇所有適合的選項」。'
+          date: '您可以使用提示來幫助使用者回答提問。如果是與日期有關的問題，您可以寫「例如：2007年3月27日」。'
+          default: '您可以使用提示來幫助使用者回答提問。例如：解釋答案所需的格式，或是您可以在哪裡找到所需的資訊。'
+          email: '您可以使用提示來告訴使用者，您將會如何使用他們的電子郵件信箱。例如：「我們只會此次申請使用您的電子郵件信箱。」'
+          long_text: '您可以使用提示來幫助使用者回答提問。例如：您可以更詳細地描述您所需要的資訊。'
+          national_insurance_number: '您可以使用提示來幫助使用者回答提問。例如：「會在您的健保卡、福利通知書、薪資單、P60
+            稅單。」例如：「QQ 12 34 56 C。」'
+          number: '您可以使用提示來幫助使用者回答提問。例如：「請扣除國定假日」。'
+          organisation_name: '您可以使用提示來幫助使用者回答提問。例如：您可能會需要使用者輸入他們註冊時使用的公司名稱。'
+          phone_number: '您可以使用提示來幫助使用者回答提問。例如：「您可以提供家用電話或手機。」'
+          radio: '您可以使用提示來幫助使用者回答提問。對於某些單選題，您可能需要加上「請單選」。'
+          single_line: '您可以使用提示來幫助使用者回答提問。例如：您可以說明答案的格式或是在那裡可以找到正確的資訊。'
+        question_short_name: '當表單的提問排在列表中時，會顯示簡短的名稱。請使用簡短的敘述名稱。例如：「地址」。'
         question_text:
-          address: ''
-          checkbox: ''
-          date: ''
-          default: ''
-          email: ''
-          long_text: ''
-          national_insurance_number: ''
-          number: ''
-          organisation_name: ''
-          phone_number: ''
-          radio: ''
-          single_line: ''
+          address: '請向與真人對話一樣進行提問。例如：「請問您的地址是?」'
+          checkbox: '請向與真人對話一樣進行提問。例如：「您曾在哪些國家居住過？」'
+          date: '請向與真人對話一樣進行提問。例如：「請問您註冊護照的日期是?」'
+          default: '請向與真人對話一樣進行提問。例如：「請問您的地址是？」'
+          email: '請向與真人對話一樣進行提問。例如：「請問您的電子郵件信箱是？」'
+          long_text: '請向與真人對話一樣進行提問。例如：「請問您申請這個職位的理由是?」'
+          national_insurance_number: '請向與真人對話一樣進行提問。例如：「請問您的健保卡卡號是？」'
+          number: '請向與真人對話一樣進行提問。例如：「請問您一年有多少假日？」'
+          organisation_name: '請向與真人對話一樣進行提問。例如：「請問您所屬的機構名稱是？」'
+          phone_number: '請向與真人對話一樣進行提問。例如：「請問您的電話號碼是?」'
+          radio: '請向與真人對話一樣進行提問。例如：「請問您現在住在哪個國家？」'
+          single_line: '請向與真人對話一樣進行提問。例如：「請問您的參考編號是？」'
     label:
       forms_make_live_form:
-        confirm_make_live: ''
+        confirm_make_live: '您確定要發佈此表單？'
       page:
         address_settings_options:
           input_types:
-            international_address: ''
-            uk_address: ''
+            international_address: '國際地址'
+            uk_address: '英國地址'
           names:
-            international_addresses: ''
-            uk_addresses: ''
-            uk_and_international_addresses: ''
+            international_addresses: '國際地址'
+            uk_addresses: '英國地址'
+            uk_and_international_addresses: '英國與國際地址'
         answer_type_options:
           descriptions:
             address: ''
@@ -124,68 +157,68 @@ en:
             long_text: ''
             name: ''
             national_insurance_number: ''
-            number: ''
+            number: '使用者能夠輸入整數或小數'
             organisation_name: ''
             phone_number: ''
-            selection: ''
+            selection: '您可以新增一些選項，讓使用者選擇'
             single_line: ''
             text: ''
-          input_type: ''
+          input_type: '輸入類型'
           names:
-            address: ''
-            date: ''
-            email: ''
-            long_text: ''
-            name: ''
-            national_insurance_number: ''
-            number: ''
-            organisation_name: ''
-            phone_number: ''
-            selection: ''
-            single_line: ''
-            text: ''
-          optional: ''
-          optional_no: ''
-          optional_yes: ''
-          title: ''
+            address: '地址'
+            date: '日期'
+            email: '電子郵件'
+            long_text: '詳答'
+            name: '姓名'
+            national_insurance_number: '健保卡卡號'
+            number: '電話號碼'
+            organisation_name: '公司或單位名稱'
+            phone_number: '電話號碼'
+            selection: '從選項中選擇'
+            single_line: '簡答'
+            text: '文字'
+          optional: '選擇性'
+          optional_no: '否'
+          optional_yes: '是'
+          title: '答案的類型'
         date_settings_options:
           input_types:
-            date_of_birth: ''
-            other_date: ''
+            date_of_birth: '出生日期'
+            other_date: '其他日期'
           names:
-            date_of_birth: ''
-            other_date: ''
-        hint_text: ''
+            date_of_birth: '是'
+            other_date: '否'
+        hint_text: '提示(選擇性)'
         name_settings_options:
           hints:
             first_and_last_name: ''
-            first_middle_and_last_name: ''
+            first_middle_and_last_name: '中間名非必要'
             full_name: ''
-            input_type: ''
-            title: ''
+            input_type: '單一的姓名欄位使用者比較容易填寫。除非必要，才需要將姓、名分開提問。'
+            title: '例如：先生、女士、小姐'
           input_types:
-            first_and_last_name: ''
-            first_middle_and_last_name: ''
-            full_name: ''
+            first_and_last_name: '姓與名在不同的欄位'
+            first_middle_and_last_name: '姓與名和中間名在不同欄位'
+            full_name: '全名在同一個欄位'
           legends:
-            input_type: ''
-            title: ''
+            input_type: '您收集姓名的方式？'
+            title: '請問您需要使用者的職稱嗎？'
           names:
-            'false': ''
-            first_and_last_name: ''
-            first_middle_and_last_name: ''
-            full_name: ''
-            'true': ''
+            'false': '否'
+            first_and_last_name: '姓與名在不同的欄位'
+            first_middle_and_last_name: '姓與名和中間名在不同欄位'
+            full_name: '全名在同一個欄位'
+            'true': '是'
           title_needed:
-            'false': ''
-            name: ''
-            'true': ''
-        question_short_name: ''
-        question_text: ''
+            'false': '否'
+            name: '需要職稱'
+            'true': '是'
+        question_short_name: '簡短版提問(選擇性)'
+        question_text: '提問內容'
         text_settings_options:
           names:
-            long_text: ''
-            single_line: ''
+            long_text: '多行文字'
+            single_line: '簡答'
   home:
     create_a_form: ''
     form_name_heading: ''
