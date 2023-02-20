@@ -2,17 +2,17 @@ en:
   helpers:
     label:
       forms_change_name_form:
-        name: '您的表格名稱為？'
+        name: '您的表單名稱為？'
     hint:
       forms_change_name_form:
         name: |-
-          此表格名稱將會顯示在每一頁表格的最上方。選擇表格名稱時
-          請您描述此表格使用的情境。例如：「申請街頭藝人執照」。
+          此名稱將會顯示在每一頁表單的最上方。選擇表單名稱時
+          請您描述此表單使用的情境。例如：「申請街頭藝人執照」。
   activemodel:
     errors:
       models:
         forms/change_name_form:
           attributes:
             name:
-              blank: '請輸入表格名稱'
+              blank: '請輸入表單名稱'
 
