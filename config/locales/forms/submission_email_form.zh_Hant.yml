@@ -2,7 +2,7 @@ en:
   helpers:
     label:
       forms_submission_email_form:
-        temporary_submission_email: '請問完成後的表格要寄到哪一個電子郵件信箱呢？'
+        temporary_submission_email: '請問完成後的表單要寄到哪一個電子郵件信箱呢？'
         email_code: '請輸入驗證碼'
   activemodel:
     errors:
