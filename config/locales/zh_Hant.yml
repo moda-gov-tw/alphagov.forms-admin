@@ -151,7 +151,7 @@ en:
             uk_and_international_addresses: '英國與國際地址'
         answer_type_options:
           descriptions:
-            address: ' '
+            address: ''
             date: ' '
             email: ' '
             long_text: ' '
