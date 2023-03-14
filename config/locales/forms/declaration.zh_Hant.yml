@@ -2,13 +2,13 @@ en:
   helpers:
     label:
       forms_declaration_form:
-        declaration_text: '請輸入相關聲明讓使用者參閱並同意(選擇性)'
+        declaration_text: '請輸入相關聲明讓使用者參閱並同意（選擇性）'
   activemodel:
     errors:
       models:
         forms/declaration_form:
           attributes:
             declaration_text:
-              too_long: '聲明的長度不得超過 2,000 字元'
+              too_long: '聲明的長度不得超過兩千個字元'
             mark_complete:
               blank: '您必須選擇一個選項'
