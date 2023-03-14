@@ -26,14 +26,14 @@ en:
               non_govuk_email: '請輸入以 .gov.uk 為結尾的電子郵件地址'
             phone:
               blank: '請輸入電話號碼與開放通話時間'
-              too_long: '電話號碼相關資訊最多不超過 500 字元'
+              too_long: '電話號碼相關資訊最多不超過五百個字元'
             link_href:
               blank: '請輸入線上聯絡連結'
               url: '請以正確格式輸入連結，例如：https://www.gov.uk/contact'
-              too_long: '連結不得超過 120 個字元長'
+              too_long: '連結不得超過一百二十個字元長'
             link_text:
               blank: '請輸入線上聯絡連結的敘述'
-              too_long: '連結的敘述不得超過 120 個字元長'
+              too_long: '連結的敘述不得超過一百二十個字元長'
             contact_details_supplied:
               must_be_supply_contact_details: '選擇至少一個選項'
 
