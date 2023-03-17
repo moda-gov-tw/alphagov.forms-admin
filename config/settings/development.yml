@@ -3,6 +3,7 @@ features: []
 
 forms_api:
   # URL to form-api endpoints
-  base_url: http://localhost:9292
+  #base_url: http://localhost:9292
+  base_url: http://govuk_form_api:9292
   # Authentication key to authenticate forms-runner to forms-api
   auth_key: changeme

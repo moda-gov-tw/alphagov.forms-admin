@@ -6,11 +6,13 @@ forms_api:
   # Authentication key to authenticate forms-runner to forms-api
   auth_key: changeme
   # URL to form-api endpoints
-  base_url: http://localhost:9292
+  #base_url: http://localhost:9292
+  base_url: http://govuk_form_api:9292
 
 forms_runner:
   # Base URL to point users to the app in the UI
-  url: http://localhost:3001
+  #url: http://localhost:3001
+  url: http://govuk_form_runner:3001
 
 # Settings for GOV.UK Notify api & email templates
 govuk_notify:
