@@ -12,8 +12,8 @@ en:
           attributes:
             confirm_make_live:
               blank: '您必須選擇一個選項'
-              missing_pages: '在您加入提問前，您無法公開此表單。請選擇「否」或「更多資訊」，並標記此事件為已完成。'
-              missing_privacy_policy_url: '因為您還未加入隱私條款的連結，所以您無法公開此表單。請選擇「否」，並加入該連結。'
-              missing_submission_email: '因為您還未加入能夠發佈此表單的電子郵件地址，所以您無法公開此表單。請選擇「否」，並加入一個電子郵件地址。'
-              missing_what_happens_next: '因為您還未說明下一步的資訊，所以您無法公開此表單。請選擇「否」，並說明關於下一步的相關資訊。'
-              missing_contact_details: '因為您還未加入聯絡資訊，所以您無法公開此表單。請選擇「否」，並加入聯絡資訊。'
+              missing_pages: '新增提問前，您無法公開此表單。請選擇「否」並新增一個或多個提問，然後將此作業標記為已完成。'
+              missing_privacy_policy_url: '您還未加入隱私條款的連結，所以無法公開此表單。請選擇「否」，並加入該連結。'
+              missing_submission_email: '您還未加入能夠發佈此表單的電子郵件地址，所以無法公開此表單。請選擇「否」，並加入一個電子郵件地址。'
+              missing_what_happens_next: '您還未說明下一步的資訊，所以無法公開此表單。請選擇「否」，並說明關於下一步的相關資訊。'
+              missing_contact_details: '您還未加入聯絡資訊，所以無法公開此表單。請選擇「否」，並加入聯絡資訊。'
