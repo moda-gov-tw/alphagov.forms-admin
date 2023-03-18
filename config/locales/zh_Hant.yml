@@ -9,54 +9,56 @@ en:
   address_settings:
     hint: '選擇所有適用的項目'
   back_link:
-    form_create: '回到新增您的表單'
-    form_view: '回到您的表單'
-    forms: '回到您的表單'
+    form_create: '回到新增表單'
+    form_view: '回到表單'
+    forms: '回到表單'
   contact_details:
     new:
       body_html: |
         <p class="govuk-body">
-          您至少需要提供一種當使用者填寫此表單有問題需要尋求協助的時候，能夠聯繫您的方式。
+          至少需提供一種聯繫方式，讓使用者在填寫表單遇到問題時可以用來尋求協助。
         </p>
 
         <p class="govuk-body">
-          聯絡資訊會顯示在每一頁表單最下方。
+          聯絡資訊會顯示在表單每一頁的最下方。
         </p>
       hint: '選擇至少一個選項'
-      title: '使用者填寫此表單的時候，如何尋求協助？'
+      title: '使用者填寫表單時，如何尋求協助？'
   contact_govuk_forms: '聯繫 GOV.UK Forms 團隊'
   continue: '繼續'
   declaration_form:
     new:
       body_html: |
         <p class="govuk-body">
-          當某人完成了您的表單中所有的提問，
-          會有一個頁面列出他們所有的回答。
-          在他們送出回答之前，
-          他們可以再次確認所有的回答。
+          當人完成您表單中所有的提問，
+          會有一個頁面列出所有的答覆。
+          送出表單前，
+          可以再次確認所有的答覆。
         </p>
         <p class="govuk-body">
-          您可以在此頁面中加入一個宣告事項，
+          可以在此頁面中加入宣告事項，
           使用者必須同意此宣告事項，以表示他們在送出回答前，
-          已經了解相關的規定。
+          已經了解相關規定。
         </p>
         <p class="govuk-body">
-          您可能會想要加入一個宣告事項，讓使用者確認他們提供的資料無誤
-          或是他們了解提供錯誤資訊的責任。
+          您可能會想加入宣告事項，來向使用者確認
+          他們所提供的資料無誤，或是確認他們了解
+          提供錯誤資訊的責任。
         </p>
 
         <h2 class="govuk-heading-s">例如</h2>
 
         <div class="govuk-inset-text">
-          如果您送出此表單，表示您確認，您已經盡可能提供正確無誤的資訊。
+          送出此表單表示您已確認，
+          您已經盡可能提供正確的資訊。
         </div>
   email_code_sent:
     body_html: |
-      <p class="govuk-body">我們已經送出驗證碼到您的電子郵件： %{temp_email}。</p>
-      <p class="govuk-body">請向收件人詢問此驗證碼。您需要輸入此驗證碼以驗證此電子郵件。</p>
+      <p class="govuk-body">我們已經送出驗證碼到您的電子郵件：%{temp_email}。</p>
+      <p class="govuk-body">請向收件人詢問此驗證碼。您需要輸入此驗證碼來驗證此電子郵件。</p>
     continue: '繼續新增表單'
   email_code_success:
-    body_html: '<p class="govuk-body">完成後的表單會被寄到：%{submission_email}。</p>
+    body_html: '<p class="govuk-body">完成的表單會被傳送到：%{submission_email}。</p>
 
       '
     continue: '繼續新增表單'
@@ -66,7 +68,7 @@ en:
     helpful_links: '有用的連結'
     privacy: '隱私'
   forbidden:
-    body_html: '此頁面並不屬於您的組織，因此您沒有權限可以檢閱這個頁面。%{link} 如果您認為此結果有誤。'
+    body_html: '此頁面並不屬於您的組織，您沒有權限可以檢閱。%{link} 如果您認為此訊息有誤。'
     title: '您無法檢閱此頁面'
   form_url_component:
     copy_to_clipboard: '網址已複製到剪貼簿'
@@ -82,61 +84,61 @@ en:
       your_questions: '您的提問'
     task_lists:
       section_1:
-        add_or_edit_questions: '新增並編輯您的提問'
+        add_or_edit_questions: '新增並編輯提問'
         add_what_happens_next: '請輸入關於下一步的須知'
-        change_name: '編輯您的表單的名稱'
-        declaration: '新增宣告以取得使用者的同意'
-        title: '建立您的表單'
+        change_name: '編輯表單名稱'
+        declaration: '新增宣告以取得使用者同意'
+        title: '建立表單'
       section_2:
         confirm_email: '輸入電子郵件中的驗證碼'
-        hint_text_html: '完成後的表單會寄送到：<br> %{submission_email}'
+        hint_text_html: '完成的表單會傳送到：<br> %{submission_email}'
         set_email: '設定表單完成後要傳送的電子郵件'
-        title: '設定電子郵件以接收完成的表單'
+        title: '設定電子郵件來接收完成的表單'
       section_3:
         contact_details: '留下聯絡資訊以提供支援服務'
-        privacy_policy: '為此表單輸入隱私條款的連結'
+        privacy_policy: '為此表單提供隱私條款的連結'
         title: '提供隱私條款與聯絡資訊'
       section_4:
         make_live: '將您的表單上線'
         title: '將您的表單上線'
   forms_delete_confirmation_form:
-    confirm_deletion_form: '您確定要刪除此表單嗎？'
-    confirm_deletion_page: '您確定要刪除此頁面嗎？'
+    confirm_deletion_form: '確定要刪除此表單嗎？'
+    confirm_deletion_page: '確定要刪除此頁面嗎？'
   header:
     product_name: '表單'
     sign_out: '登出'
   helpers:
     hint:
       page:
-        answer_type: '確認回覆符合指定的格式。'
+        answer_type: '答覆將被檢查是否符合指定格式。'
         hint_text:
-          address: '您可以用提示來告知使用者，您將會如何使用他們的地址。例如：「我們會將您的駕照寄到此地址。」'
-          checkbox: '您可以使用提示來幫助使用者回答提問。對於某些多重選擇的提問，您可能需要加上「選擇所有適合的選項」。'
-          date: '您可以使用提示來幫助使用者回答提問。如果是與日期有關的提問，您可以寫「例如：2007 年 3 月 27 日」。'
-          default: '您可以使用提示來幫助使用者回答提問。例如：解釋答案所需的格式，或是您可以在哪裡找到所需的資訊。'
-          email: '您可以使用提示來告訴使用者，您將會如何使用他們的電子郵件。例如：「我們只會此次申請使用您的電子郵件。」'
-          long_text: '您可以使用提示來幫助使用者回答提問。例如：您可以更詳細地描述您所需要的資訊。'
-          national_insurance_number: '您可以使用提示來幫助使用者回答提問。例如：「會在您的健保卡、福利通知書、薪資單、P60
+          address: '您可以用提示來告知使用者，您將如何使用他們的地址。例如：「我們會將您的駕照寄到此地址。」'
+          checkbox: '您可以使用提示來幫助使用者答覆提問。對於某些複選的提問，您可能想加上「選擇所有適合的選項」。'
+          date: '您可以使用提示來幫助使用者答覆提問。如果是與日期有關的提問，您可以寫「例如：2007 年 3 月 27 日」。'
+          default: '您可以使用提示來幫助使用者答覆提問。例如：解釋答覆所需的格式，或是可以在哪裡找到你所詢問的資訊。'
+          email: '您可以使用提示來告訴使用者，將會如何使用他們的電子郵件。例如：「我們只會使用您的電子郵件來聯繫申請進度。」'
+          long_text: '您可以使用提示來幫助使用者答覆提問。例如：您可以更詳細地描述您所需要的資訊。'
+          national_insurance_number: '您可以使用提示來幫助使用者答覆提問。例如：「會在您的健保卡、福利通知書、薪資單、P60
             稅單。」例如：「QQ 12 34 56 C。」'
-          number: '您可以使用提示來幫助使用者回答提問。例如：「請扣除國定假日」。'
-          organisation_name: '您可以使用提示來幫助使用者回答提問。例如：您可能會需要使用者輸入他們註冊時使用的公司名稱。'
-          phone_number: '您可以使用提示來幫助使用者回答提問。例如：「您可以提供家用電話或手機。」'
-          radio: '您可以使用提示來幫助使用者回答提問。對於某些單選題，您可能需要加上「請單選」。'
-          single_line: '您可以使用提示來幫助使用者回答提問。例如：您可以說明答案的格式或是在那裡可以找到正確的資訊。'
-        question_short_name: '當表單的提問排在列表中時，會顯示簡短的名稱。請使用簡短的敘述名稱。例如：「地址」。'
+          number: '您可以使用提示來幫助使用者答覆提問。例如：「不要包含英國銀行假日」。'
+          organisation_name: '您可以使用提示來幫助使用者答覆提問。例如：您可能會需要使用者輸入他們註冊時使用的公司名稱。'
+          phone_number: '您可以使用提示來幫助使用者答覆提問。例如：「您可以提供家用電話或手機號碼。」'
+          radio: '您可以使用提示來幫助使用者答覆提問。對於某些單選題，您可能需要加上「請單選」。'
+          single_line: '您可以使用提示來幫助使用者答覆提問。例如：您可以說明答覆的格式或是怎麼找到正確的資訊。'
+        question_short_name: '當表單的提問以列表呈現時，只會顯示簡短的名稱。請使用簡短的敘述名稱。例如：「地址」。'
         question_text:
-          address: '請向與真人對話一樣進行提問。例如：「請問您的地址是 ？」'
-          checkbox: '請向與真人對話一樣進行提問。例如：「您曾在哪些國家居住過？」'
-          date: '請向與真人對話一樣進行提問。例如：「請問您註冊護照的日期是？」'
-          default: '請向與真人對話一樣進行提問。例如：「請問您的地址是？」'
-          email: '請向與真人對話一樣進行提問。例如：「請問您的電子郵件是？」'
-          long_text: '請向與真人對話一樣進行提問。例如：「請問您申請這個職位的理由是？」'
-          national_insurance_number: '請向與真人對話一樣進行提問。例如：「請問您的健保卡卡號是？」'
-          number: '請向與真人對話一樣進行提問。例如：「請問您一年有多少假日？」'
-          organisation_name: '請向與真人對話一樣進行提問。例如：「請問您所屬的機構名稱是？」'
-          phone_number: '請向與真人對話一樣進行提問。例如：「請問您的電話號碼是？」'
-          radio: '請向與真人對話一樣進行提問。例如：「請問您現在住在哪個國家？」'
-          single_line: '請向與真人對話一樣進行提問。例如：「請問您的參考編號是？」'
+          address: '請像與真人對話一樣進行提問。例如：「請問您的地址是 ？」'
+          checkbox: '請像與真人對話一樣進行提問。例如：「您曾在哪些國家居住過？」'
+          date: '請像與真人對話一樣進行提問。例如：「請問您護照的發行日期是？」'
+          default: '請像與真人對話一樣進行提問。例如：「請問您的地址是？」'
+          email: '請像與真人對話一樣進行提問。例如：「請問您的電子郵件是？」'
+          long_text: '請像與真人對話一樣進行提問。例如：「請問您申請這個職位的原因是？」'
+          national_insurance_number: '請像與真人對話一樣進行提問。例如：「請問您的國家保險號碼是？」'
+          number: '請像與真人對話一樣進行提問。例如：「請問您一年有多少天休假？」'
+          organisation_name: '請像與真人對話一樣進行提問。例如：「請問您所屬的機構名稱是？」'
+          phone_number: '請像與真人對話一樣進行提問。例如：「請問您的電話號碼是？」'
+          radio: '請像與真人對話一樣進行提問。例如：「請問您現在居住的國家是？」'
+          single_line: '請像與真人對話一樣進行提問。例如：「請問您的參考編號是？」'
     label:
       forms_make_live_form:
         confirm_make_live: '您確定要發佈此表單？'
@@ -157,10 +159,10 @@ en:
             long_text: ' '
             name: ' '
             national_insurance_number: ' '
-            number: '使用者能夠輸入整數或小數'
+            number: '使用者只能夠輸入整數或小數'
             organisation_name: ' '
             phone_number: ' '
-            selection: '您可以新增一些選項，讓使用者選擇'
+            selection: '您可以新增多個選項來讓使用者選擇'
             single_line: ' '
             text: ' '
           input_type: '輸入類型'
@@ -168,19 +170,19 @@ en:
             address: '地址'
             date: '日期'
             email: '電子郵件'
-            long_text: '詳答'
+            long_text: '多行的文字'
             name: '姓名'
-            national_insurance_number: '健保卡卡號'
+            national_insurance_number: '國家保險號碼'
             number: '號碼'
             organisation_name: '公司或單位名稱'
             phone_number: '電話號碼'
             selection: '從選項中選擇'
-            single_line: '簡答'
+            single_line: '單行文字'
             text: '文字'
           optional: '選擇性'
           optional_no: '否'
           optional_yes: '是'
-          title: '答案的類型'
+          title: '答覆類型'
         date_settings_options:
           input_types:
             date_of_birth: '出生日期'
@@ -194,15 +196,15 @@ en:
             first_and_last_name: ' '
             first_middle_and_last_name: '中間名非必要'
             full_name: ' '
-            input_type: '單一的姓名欄位使用者比較容易填寫。除非必要，才需要將姓、名分開提問。'
-            title: '例如：先生、女士、小姐'
+            input_type: '一格式的姓名欄位較容易填寫。除非必要才需要將姓、名分開提問。'
+            title: '例如：先生、太太、小姐、女士、非二元稱謂'
           input_types:
             first_and_last_name: '姓與名在不同的欄位'
-            first_middle_and_last_name: '姓與名和中間名在不同欄位'
-            full_name: '全名在同一個欄位'
+            first_middle_and_last_name: '姓、名和中間名在不同欄位'
+            full_name: '全名在同一欄位'
           legends:
             input_type: '您收集姓名的方式？'
-            title: '請問您需要使用者的職稱嗎？'
+            title: '請問您需要使用者的頭銜嗎？'
           names:
             'false': '否'
             first_and_last_name: '姓與名在不同的欄位'
@@ -211,14 +213,14 @@ en:
             'true': '是'
           title_needed:
             'false': '否'
-            name: '需要職稱'
+            name: '需要頭銜'
             'true': '是'
-        question_short_name: '簡短版提問（選擇性）'
+        question_short_name: '提問的短名（選擇性）'
         question_text: '提問內容'
         text_settings_options:
           names:
             long_text: '多行文字'
-            single_line: '簡答'
+            single_line: '單行文字'
   home:
     create_a_form: '建立表單'
     form_name_heading: '表單名稱'
@@ -227,13 +229,13 @@ en:
     preview: '在新分頁預覽此表單'
     your_forms: '您的表單'
   internal_server_error:
-    body: '請稍後再試一次。'
-    title: '抱歉，目前服務發生了一點問題'
+    body: '請稍後再試。'
+    title: '抱歉，目前服務發生問題'
   live_form_warning:
     notification_content: |
-      這可能會影響所有正在填寫表單的使用者。
-      他們可能會失去所有已經提供的答案，
-      甚至有可能會需要重新填寫表單。
+      這可能會影響所有正同時在填寫表單的使用者。
+      他們可能會失去已提供的答覆，
+      甚至可能要重新填寫表單。
     notification_heading: |
       您對已上線的表單所做的變更，
       會立刻更新到表單中。
@@ -242,35 +244,35 @@ en:
     confirmation:
       body_html: |
         <p class="govuk-body">
-           這份表單不會被搜索引擎列入編目，使用者無法輕易地找到此表單。
-          請聯絡您的團隊，將表單的連結更新到 GOV.UK 讓使用者能夠找到此表單。
+           這份表單不會被搜索引擎列入編目，使用者無法輕易地找到表單。
+          請聯絡您的團隊，將表單連結更新到 GOV.UK 來讓使用者能夠找到表單。
         </p>
       continue_link: '繼續設定表單細節'
       form_name: '表單名稱'
     new:
       body_html: |
         <p class="govuk-body">
-          當您將表單上線後，就能取得表單的網址。
-          表單不會被列入搜索引擎的編目，使用者無法輕易地找到此表單。
-          請聯絡您的團隊，將表單的連結更新到 GOV.UK 讓使用者能夠找到此表單。
+          當您將表單上線就能取得表單網址。
+          表單不會被列入搜索引擎的編目，使用者無法輕易找到表單。
+          請聯絡您的團隊，將表單的連結更新到 GOV.UK 來讓使用者找到此表單。
         </p>
 
         <p class="govuk-body">
-          您的表單上線後，完成後的表單將會被送到 %{submission_email}。
+          表單上線後，完成的表單將被傳送到 %{submission_email}。
         </p>
   mark_complete:
     'false': '否，我稍後會回來'
-    hint: '選擇「是」，會將此事件標記為完成。但如果您需要的話，您還是可以進行變更。'
-    legend: '請問您要將此事件標記為完成嗎？'
+    hint: '選擇「是」，會將此作業標記為完成。但如果需要，還是可以進行變更。'
+    legend: '請問您要將此作業標記為完成嗎？'
     'true': '是'
   not_found:
     body: |
       如果您手動輸入網址，請確認網址是否正確。
 
-      如果您複製並貼上網址，請確定您複製了完整的網址。
-    title: '此網頁不存在'
+      如果您複製並貼上網址，請確認是否複製了完整的網址。
+    title: '網頁不存在'
   page_options_service:
-    answer_type: '回答類型'
+    answer_type: '答覆類型'
     date: '日期'
     hint_text: '提示'
     name_type:
@@ -279,47 +281,47 @@ en:
     selection_type:
       default: '從選單中選擇'
       none_of_the_above: '以上皆非'
-      only_one_option: '請從選單中單選。'
+      only_one_option: '請從選單中挑選一個。'
   page_titles:
     address_settings: '您希望收到哪一種地址？'
-    change_name_form: '命名您的表單'
+    change_name_form: '為表單命名'
     confirm_email_form: '輸入驗證碼'
-    confirm_email_success: '已確認此電子郵件'
-    contact_details_form: '留下聯絡資訊以提供支援服務'
-    date_settings: '請問您正在詢問某人的生日嗎？'
-    declaration_form: '新增宣告以取得使用者的同意'
+    confirm_email_success: '電子郵件已確認'
+    contact_details_form: '請留下聯絡資訊以提供支援服務'
+    date_settings: '請問您正在詢問生日嗎？'
+    declaration_form: '新增宣告以取得使用者同意'
     email_code_sent: '驗證碼已寄出'
     error_prefix: '錯誤： '
     forbidden: '您無法檢閱此頁面'
     home: '首頁'
-    internal_server_error: '抱歉，目前服務發生了一點問題'
-    make_live_form: '將您的表單上線'
-    name_settings: '要求使用者輸入姓名'
-    new_page_form: '編輯您的提問'
-    not_found: '此網頁不存在'
-    privacy_policy_form: '為此表單輸入隱私條款的連結'
-    service_unavailable: '抱歉，此服務目前不存在'
-    set_email_form: '設定電子郵件以接收完成的表單'
+    internal_server_error: '抱歉，目前服務發生問題'
+    make_live_form: '讓表單上線'
+    name_settings: '詢問使用者姓名'
+    new_page_form: '編輯提問'
+    not_found: '網頁不存在'
+    privacy_policy_form: '為此表單提供隱私條款的連結'
+    service_unavailable: '抱歉，此服務不存在'
+    set_email_form: '設定電子郵件來接收完成的表單'
     text_settings: '使用者需要提供多少字？'
-    type_of_answer: '此提問需要填入哪種類型的答案？'
-    what_happens_next_form: '送出表單頁面'
-    your_form_is_live: '您的表單已經上線'
+    type_of_answer: '此提問需填入什麼類型的答覆？'
+    what_happens_next_form: '表單已送出的頁面'
+    your_form_is_live: '表單已上線'
   pages:
     add_rules_legend: '提問設定'
     delete_question: '刪除提問'
     go_to_your_questions: '跳到您的提問'
-    heading: '編輯您的提問'
+    heading: '編輯提問'
     index:
-      add_question: '加入一個提問'
+      add_question: '加入提問'
       mark_complete:
-        legend: '請問您已經編輯完此提問了嗎？'
-      title: '新增並編輯您的提問'
-    make_optional_hint: "‘(optional)’ 會被加到提問結尾"
+        legend: '請問您已經完成編輯此提問了嗎？'
+      title: '新增並編輯提問'
+    make_optional_hint: "「（選擇性）」會被加到提問結尾"
     make_optional_text: '設定選擇性提問'
     optional: "%{question_text} （選擇性）"
     question: '提問'
-    submit_add: '儲存並新增下一個提問'
-    submit_edit: '儲存並編輯下一個提問'
+    submit_add: '儲存並新增下個提問'
+    submit_edit: '儲存並編輯下個提問'
     submit_save: '儲存提問'
   phase_banner:
     after_link: '會幫助我們改善這項服務。'
@@ -328,42 +330,42 @@ en:
   privacy_policy_form:
     body_html: |
       <p class="govuk-body">
-        為了遵守英國一般資料保護規範，您應該為在此表單輸入資料的使用者提供相關隱私條款。
+        為了遵循英國一般資料保護規範（UK GDPR），您應該為在此表單輸入資料的使用者提供相關隱私條款。
       </p>
 
       <p class="govuk-body">
         隱私條款必須提供相關的細節，例如：:
         <ul class="govuk-list govuk-list--bullet">
           <li>
-            您需要此個資的目的
+            您需要個資的目的
           </li>
           <li>
             您保留個資的時間
           </li>
           <li>
-            您會與誰分享此資料
+            您會與誰分享此數據
           </li>
           <li>
-            聯絡您的部門與資安部門的方式
+            聯絡您部門與數據保護專員的方式
           </li>
         </ul>
       </p>
 
       <p class="govuk-body">
-        您可能已經在隱私條款或個資章程中發佈此資訊。因此您需要更新既有的隱私條款，已囊括此表單中使用到的資料或甚至您需要全新的隱私條款。
+        您可能已經在隱私條款或個資章程中發佈此資訊。您需要更新既有的隱私條款，來納入表單中使用的資料，或甚至需要全新的隱私條款。
       </p>
 
       <p class="govuk-body">
-        需要任何協助，請聯繫您的資安部門與資安人員。
+        需要任何協助，請聯繫數據保護部門與數據保護經理。
       </p>
-    heading: '為此表單輸入隱私條款的連結'
+    heading: '為此表單提供隱私條款的連結'
     submit_button: '儲存並繼續'
   save_and_continue: '儲存並繼續'
   selections_settings:
     add_another: '新增另一個選項'
-    add_options: '在您的選單中新增選項'
-    add_options_hint: '您最多可以新增二十個選項'
-    cannot_add_more_options: '您已經新增了二十個選項，無法再繼續新增。'
+    add_options: '在選單新增選項'
+    add_options_hint: '您最多可新增二十個選項'
+    cannot_add_more_options: '您已經新增二十個選項，無法再新增。'
     heading: '建立選單'
     include_none_of_the_above: '新增「以上皆非」的選項'
     list_settings: '選單設定'
@@ -375,38 +377,38 @@ en:
     'yes': '是'
   service_unavailable:
     body_html: "%{link}如果您需要變更您的表單，或是分享此服務給其他人。"
-    title: '抱歉，此服務目前不存在'
+    title: '抱歉，此服務不存在'
   set_email_form:
     new:
       body_html: |
         <p class="govuk-body">
-          您需要提供電子郵件，接收已完成的表單。此電子郵件應該是公開的政府郵件信箱。
+          您需要提供電子郵件來接收已完成表單。電子郵件應該是公開的政府郵件信箱。
         </p>
 
         <p class="govuk-body">
-          為了確認此郵件信箱無誤，我們會將驗證碼寄到此信箱。
+          為了確認此電子郵件，我們會將驗證碼寄到此電子郵件。
         </p>
 
         <p class="govuk-body">
-          請向收信人詢問此驗證碼，您會需要此驗證碼來驗證您的信箱。
+          請向收信人詢問此驗證碼，您會需要此驗證碼來驗證您的電子郵件。
         </p>
   show_live_form:
-    contact_details: '您的表單的連絡資訊，以提供支援服務'
+    contact_details: '您表單支援服務的連絡資訊'
     declaration: '宣告'
-    declaration_description: '完成所有提問的使用者會在送出表單前，看到此表單中的宣告事項。'
+    declaration_description: '完成所有提問的使用者，在送出表單前會看到表單中的宣告事項。'
     privacy_policy_link: '隱私條款連結'
     questions: '提問'
     questions_link:
       one: 查看表單中第 %{count} 道提問
       other: ''
-    submission_email: '送出電子郵件'
+    submission_email: '遞交電子郵件'
     support_email: '電子郵件'
     support_phone: '電話號碼'
     support_url: '線上支援聯絡方式'
     what_happens_next: '關於下一步的須知'
     what_happens_next_description: '當使用者完成並送出表單，會顯示下一步的須知。'
-    what_is_declaration: '甚麼是宣告事項？'
-    what_is_what_happens_next: '甚麼是「下一步的須知」？'
+    what_is_declaration: '什麼是宣告事項？'
+    what_is_what_happens_next: '什麼是「下一步的須知」？'
   skip_to_main_content: '略過至主要內容'
   status_tag_description_component:
     status: '狀態'
