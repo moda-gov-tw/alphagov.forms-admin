@@ -8,6 +8,6 @@ en:
               blank: '選擇您收集姓名的方式'
               inclusion: '選擇您收集姓名的方式'
             title_needed:
-              blank: '如果您需要標題的話，請選擇「是」'
+              blank: '如果您需要頭銜，請選擇「是」'
               inclusion: '選擇「是」或「否」'
 
