@@ -8,4 +8,4 @@ en:
               blank: '為每個選項加入說明'
               uniqueness: '選項名稱不能重複'
               minimum: '請輸入至少兩個選項'
-              maximum: '您最多只能新增二十個選項'
+              maximum: '最多只能新增二十個選項'
