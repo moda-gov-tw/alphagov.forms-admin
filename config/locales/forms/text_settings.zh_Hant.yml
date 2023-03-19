@@ -5,5 +5,5 @@ en:
         forms/text_settings_form:
           attributes:
             input_type:
-              blank: '設定使用者須提供的字數'
+              blank: '選擇使用者須提供多少文字'
               inclusion: '選擇「單行文字」或是「多行文字」'
