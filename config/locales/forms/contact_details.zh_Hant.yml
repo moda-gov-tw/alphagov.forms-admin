@@ -7,7 +7,7 @@ en:
           supply_phone: '電話號碼'
           supply_link: '線上聯絡連結'
         email: '請輸入電子郵件地址'
-        phone: '請輸入電話號碼與開放通話的時段'
+        phone: '請輸入電話號碼與可通話的時段'
         link_href: '請輸入連結'
         link_text: '您要使用什麼文字來述此連結？'
         submit: 'wejwihaklsjfkljaslkfj'
