@@ -12,6 +12,7 @@ en:
     form_create: '回到新增表單'
     form_view: '回到表單'
     forms: '回到表單'
+    form_edit: 回到編輯您的表單
   contact_details:
     new:
       body_html: |
@@ -66,7 +67,7 @@ en:
     copy_to_clipboard: '網址已複製到剪貼簿'
     form_url: '表單網址'
   forms:
-    delete_form: '刪除表單'
+    delete_form: '刪除草稿表單'
     form_overview:
       edit: '編輯'
       live_title: '您的表單'
@@ -74,6 +75,8 @@ en:
       move_up_html: '往上移動 <span class="govuk-visually-hidden">%{title}</span>'
       title: '建立表單'
       your_questions: '您的問題'
+      title_create: 建立表單
+      title_edit: 編輯您的表單
     task_lists:
       section_1:
         add_or_edit_questions: '新增並編輯問題'
@@ -93,9 +96,48 @@ en:
       section_4:
         make_live: '將您的表單上線'
         title: '將您的表單上線'
+    task_list_create:
+      section_1:
+        name: 編輯您的表單名稱
+        title: 建立您的表單
+        what_happens_next: 新增關於即將發生的資訊
+        declaration: 新增宣告事項給予使用者同意
+        questions: 新增與編輯您的問題
+      section_2:
+        confirm_email: 輸入電子郵件驗證碼
+        email: 設定電子郵件完成後表單將寄送何處
+        title: 為完成表單設定電子郵件
+        hint_text_html: 完成表單將計送到：<br> %{submission_email}
+      section_3:
+        contact_details: 提供支援的聯絡資訊
+        title: 提供隱私與聯絡資訊
+        privacy_policy: 為表單提供隱私資訊連結
+      section_4:
+        make_live: 將您的表單上線
+        title: 將您的表單上線
+    task_list_edit:
+      section_1:
+        name: 編輯您的表單名稱
+        questions: 新增與編輯您的問題
+        title: 您的表單
+        what_happens_next: 新增關於即將發生的資訊
+        declaration: 新增宣告事項給予使用者同意
+      section_2:
+        confirm_email: 輸入電子郵件驗證碼
+        hint_text_html: 完成表單將計送到：<br> %{submission_email}
+        title: 完成表單的電子郵件
+        email: 設定電子郵件完成後表單將寄送何處
+      section_3:
+        contact_details: 編輯支援的聯絡資訊
+        privacy_policy: 編輯隱私資訊連結
+        title: 隱私與聯絡資訊
+      section_4:
+        make_live: 將您的修正上線
+        title: 將您的修正上線
   forms_delete_confirmation_form:
-    confirm_deletion_form: '確定要刪除此表單嗎？'
+    confirm_deletion_form: '確定要刪除此草稿表單嗎？'
     confirm_deletion_page: '確定要刪除此頁面嗎？'
+    confirm_deletion_form_live_form: 刪除此草稿表單將不會刪除上線表單。
   header:
     product_name: '表單'
     sign_out: '登出'
@@ -116,6 +158,9 @@ en:
           phone_number: '您可以使用說明文字來幫助使用者填答。例如：「您可以提供家用電話或手機號碼。」'
           radio: '您可以使用說明文字來幫助使用者填答。對於單選題，您可能需要加上「請單選」。'
           single_line: '您可以使用說明文字來幫助使用者填答。例如：您可以說明應使用什麼格式填答，或是可以在哪裡找到此欄位資訊。'
+          other_date: 使用提示文字幫助使用者回答。日期問題可以使用 "例如：27 3 2007"。
+          date_of_birth: 使用提示文字幫助使用者回答。對於出生日期您可以使用 "例如：27 3 1998"。
+          name: 使用提示文字幫助使用者回答。例如您或許需要使用者輸入他們的名稱如同在護照或是駕照上的正式名稱。
         question_short_name: '當表單的問題以列表呈現時，只會顯示簡短的名稱。請使用簡短的敘述名稱。例如：「地址」。'
         question_text:
           address: '請像與真人對話一樣進行提問。例如：「請問您的地址是 ？」'
@@ -130,6 +175,9 @@ en:
           phone_number: '請像與真人對話一樣進行提問。例如：「請問您的電話號碼是？」'
           radio: '請像與真人對話一樣進行提問。例如：「請問您現在居住的國家是？」'
           single_line: '請像與真人對話一樣進行提問。例如：「請問您的參考編號是？」'
+          date_of_birth: 詢問個人問題可以使用以下方式，例如："您的出生日期？"
+          name: 詢問個人問題可以使用以下方式，例如："您的名稱？"
+          other_date: 詢問個人問題可以使用以下方式，例如："您的護照發行日期？"
     label:
       forms_make_live_form:
         confirm_make_live: '您確定要發佈此表單？'
@@ -212,6 +260,8 @@ en:
           names:
             long_text: '多行文字'
             single_line: '單行文字'
+      forms_make_changes_live_form:
+        confirm_make_live: 您確定是否將草稿表單上線？
   home:
     create_a_form: '建立表單'
     form_name_heading: '表單名稱'
@@ -293,6 +343,8 @@ en:
     type_of_answer: '請選擇問題類型'
     what_happens_next_form: '表單已送出的頁面'
     your_form_is_live: '表單已上線'
+    make_changes_live_form: 使您的修正上線
+    your_changes_are_live: 您的修正已上線
   pages:
     add_rules_legend: '問題設定'
     delete_question: '刪除問題'
@@ -304,7 +356,7 @@ en:
         legend: '您是否已完成表單問題編輯？'
       title: '新增並編輯問題'
     make_optional_hint: "問題結尾將加註「（選填）」"
-    make_optional_text: '將本題設定為選填問題'
+    make_optional_text: '將本題設定為選填問題，使用者可以略過'
     optional: "%{question_text} （選填）"
     question: '問題'
     submit_add: '儲存並新增下個問題'
@@ -396,6 +448,7 @@ en:
     what_happens_next_description: '當使用者完成並送出表單，會顯示下一步的須知。'
     what_is_declaration: '什麼是宣告事項？'
     what_is_what_happens_next: '什麼是「下一步的須知」？'
+    draft_create: 建立草稿表單並編輯
   skip_to_main_content: '略過至主要內容'
   status_tag_description_component:
     status: '狀態'
@@ -404,3 +457,9 @@ en:
     completed: '完成'
     in_progress: '進行中'
     not_started: '未完成'
+  form_statuses:
+    live: 上線
+    draft: 草稿
+  make_changes_live:
+    url_will_remain_same: 此網址將與上線後表單一致。
+    warning: "當您將修正上線，這將會影響同一時間正在填寫\n的使用者。他們可能會漏填一些回應以及需要再次重新填寫。\n"
