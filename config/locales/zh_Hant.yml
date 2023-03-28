@@ -106,38 +106,38 @@ en:
       section_2:
         confirm_email: 輸入電子郵件驗證碼
         email: 設定電子郵件完成後表單將寄送何處
-        title: 為完成表單設定電子郵件
-        hint_text_html: 完成表單將計送到：<br> %{submission_email}
+        title: 設定用來接收填寫完成表單的電子郵件地址
+        hint_text_html: 填寫完成的表單，將寄送到：<br> %{submission_email}
       section_3:
-        contact_details: 提供支援的聯絡資訊
-        title: 提供隱私與聯絡資訊
-        privacy_policy: 為表單提供隱私資訊連結
+        contact_details: 提供需要支援時的聯絡資訊
+        title: 提供隱私權與聯絡資訊
+        privacy_policy: 提供這份表單的隱私權相關資訊連結
       section_4:
         make_live: 將您的表單上線
         title: 將您的表單上線
     task_list_edit:
       section_1:
         name: 編輯您的表單名稱
-        questions: 新增與編輯您的問題
+        questions: 編輯您的題目
         title: 您的表單
-        what_happens_next: 新增關於即將發生的資訊
+        what_happens_next: 編輯表單填寫完成後，填表人要做什麼事情的相關資訊
         declaration: 新增宣告事項給予使用者同意
       section_2:
         confirm_email: 輸入電子郵件驗證碼
-        hint_text_html: 完成表單將計送到：<br> %{submission_email}
-        title: 完成表單的電子郵件
-        email: 設定電子郵件完成後表單將寄送何處
+        hint_text_html: 填寫完成的表單，將寄送到：<br> %{submission_email}
+        title: 表單填寫完成後，要接收通知的電子郵件地址
+        email: 設定表單填寫完成後，要寄送到哪個電子郵件地址
       section_3:
-        contact_details: 編輯支援的聯絡資訊
-        privacy_policy: 編輯隱私資訊連結
-        title: 隱私與聯絡資訊
+        contact_details: 編輯需要支援時的聯絡資訊
+        privacy_policy: 編輯此表單的隱私權資訊連結
+        title: 隱私權與聯絡資訊
       section_4:
         make_live: 將您的修正上線
         title: 將您的修正上線
   forms_delete_confirmation_form:
-    confirm_deletion_form: '確定要刪除此草稿表單嗎？'
+    confirm_deletion_form: '確定要刪除此草稿嗎？'
     confirm_deletion_page: '確定要刪除此頁面嗎？'
-    confirm_deletion_form_live_form: 刪除此草稿表單將不會刪除上線表單。
+    confirm_deletion_form_live_form: 刪除此草稿不會一併刪除已上線的正式表單。
   header:
     product_name: '表單'
     sign_out: '登出'
@@ -158,9 +158,9 @@ en:
           phone_number: '您可以使用說明文字來幫助使用者填答。例如：「您可以提供家用電話或手機號碼。」'
           radio: '您可以使用說明文字來幫助使用者填答。對於單選題，您可能需要加上「請單選」。'
           single_line: '您可以使用說明文字來幫助使用者填答。例如：您可以說明應使用什麼格式填答，或是可以在哪裡找到此欄位資訊。'
-          other_date: 使用提示文字幫助使用者回答。日期問題可以使用 "例如：27 3 2007"。
-          date_of_birth: 使用提示文字幫助使用者回答。對於出生日期您可以使用 "例如：27 3 1998"。
-          name: 使用提示文字幫助使用者回答。例如您或許需要使用者輸入他們的名稱如同在護照或是駕照上的正式名稱。
+          other_date: 您可以使用說明文字來幫助使用者填答。如果問題類型是日期，可以使用「例如：2007/03/27」。
+          date_of_birth: 您可以使用說明文字來幫助使用者填答。如果是與生日有關的問題，您可以寫「例如：1998/03/27」。
+          name: 您可以使用說明文字來幫助使用者填答。舉例來說，您可能會想要請使用者輸入他們的戶籍地址，而非實際居住地址。
         question_short_name: '當表單的問題以列表呈現時，只會顯示簡短的名稱。請使用簡短的敘述名稱。例如：「地址」。'
         question_text:
           address: '請像與真人對話一樣進行提問。例如：「請問您的地址是 ？」'
@@ -173,11 +173,11 @@ en:
           number: '請像與真人對話一樣進行提問。例如：「請問您一年有多少天休假？」'
           organisation_name: '請像與真人對話一樣進行提問。例如：「請問您所屬的機構名稱是？」'
           phone_number: '請像與真人對話一樣進行提問。例如：「請問您的電話號碼是？」'
-          radio: '請像與真人對話一樣進行提問。例如：「請問您現在居住的國家是？」'
+          radio: '請像與真人對話一樣進行提問。例如：「請問您現在居住在哪個國家？」'
           single_line: '請像與真人對話一樣進行提問。例如：「請問您的參考編號是？」'
           date_of_birth: 詢問個人問題可以使用以下方式，例如："您的出生日期？"
           name: 詢問個人問題可以使用以下方式，例如："您的名稱？"
-          other_date: 詢問個人問題可以使用以下方式，例如："您的護照發行日期？"
+          other_date: 請像與真人對話一樣進行提問。例如：「您的護照發行日期是？」
     label:
       forms_make_live_form:
         confirm_make_live: '您確定要發佈此表單？'
@@ -462,4 +462,4 @@ en:
     draft: 草稿
   make_changes_live:
     url_will_remain_same: 此網址將與上線後表單一致。
-    warning: "當您將修正上線，這將會影響同一時間正在填寫\n的使用者。他們可能會漏填一些回應以及需要再次重新填寫。\n"
+    warning: "表單修改上線後，可能會影響當下正在填表的使用者，可能會遺失部分填答，或是需要從頭開始重新填寫。\n"
