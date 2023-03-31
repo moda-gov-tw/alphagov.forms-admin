@@ -29,7 +29,7 @@ FileUtils.chdir APP_ROOT do
   system! "bin/rails log:clear tmp:clear"
 
   puts "\n== Installing frontend dependencies =="
-  system! "npm install"
+  system! "npm install --unsafe-perm=true --allow-root"
 
   puts "\n== Building frontend assets =="
   system! "bin/vite build"

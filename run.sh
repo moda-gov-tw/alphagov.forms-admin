@@ -5,6 +5,7 @@ docker run -it \
     -e RAILS_ENV=development \
     -e NODE_ENV=development \
     -e DATABASE_URL="postgres://rails:password@db/rails" \
+    -v $(pwd)/.cache:/root/.cache \
     --link form_db:db \
     --link govuk_form_runner \
     --link govuk_form_api \
