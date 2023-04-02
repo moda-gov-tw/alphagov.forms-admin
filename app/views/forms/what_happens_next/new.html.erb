@@ -18,10 +18,12 @@
 
       <p class="govuk-body"><%= t("forms.what_happens_next.new.body_2") %></p>
 
-      <h2 class="govuk-heading-s">Example</h2>
+      <h2 class="govuk-heading-s">
+        <%= t("forms.what_happens_next.new.example") %>
+      </h2>
 
       <%= govuk_inset_text do %>
-        We'll send you an email to let you know the outcome. You'll usually get a response within 10 working days.
+        <%= t("forms.what_happens_next.new.inset_text") %>
       <% end %>
 
       <%= f.govuk_text_area :what_happens_next_text, max_chars: 2000, label: {size: 'm' } %>
