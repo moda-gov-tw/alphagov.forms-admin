@@ -31,7 +31,7 @@ en:
     new:
       body_html: |
         <p class="govuk-body">
-        填表者將表單填寫完成後，將向再次顯示填寫內容，讓他們可以在送出表單前再次確認內容是否正確。
+        填表者將表單填寫完成後，將顯示填寫內容，讓他們可以在送出前再次確認內容是否正確。
         </p>
         <p class="govuk-body">
         您也可以在此頁面中加入說明或需宣告的事項，確保填表人理解或同意才送出填表資訊。
@@ -43,7 +43,7 @@ en:
         <h2 class="govuk-heading-s">例如</h2>
 
         <div class="govuk-inset-text">
-        檢舉交通違規案件不得撤回，請審慎核閱資料正確性。考量機關處理能量並避免檢舉人一再補正延宕舉發，檢舉人不得主動補正資料，警察機關審查檢舉案件，如認有必要請檢舉人補正十，應於收到補正通知後 7 日內補正相關資料。
+        檢舉交通違規案件不得撤回，請審慎核閱資料正確性。考量機關處理能量並避免檢舉人一再補正延宕舉發，檢舉人不得主動補正資料，警察機關審查檢舉案件，如認有必要請檢舉人補正時，應於收到補正通知後 7 日內補正相關資料。
         </div>
   email_code_sent:
     body_html: |
@@ -100,8 +100,8 @@ en:
       section_1:
         name: 編輯您的表單名稱
         title: 建立您的表單
-        what_happens_next: 新增關於即將發生的資訊
-        declaration: 新增宣告事項給予使用者同意
+        what_happens_next: 新增表單送出後的說明
+        declaration: 加入需由填表者同意的注意事項
         questions: 新增與編輯您的問題
       section_2:
         confirm_email: 輸入電子郵件驗證碼
@@ -120,8 +120,8 @@ en:
         name: 編輯您的表單名稱
         questions: 編輯您的題目
         title: 您的表單
-        what_happens_next: 編輯表單填寫完成後，填表人要做什麼事情的相關資訊
-        declaration: 新增宣告事項給予使用者同意
+        what_happens_next: 編輯表單送出後的說明
+        declaration: 編輯需由填表者同意的注意事項
       section_2:
         confirm_email: 輸入電子郵件驗證碼
         hint_text_html: 填寫完成的表單，將寄送到：<br> %{submission_email}
@@ -274,7 +274,7 @@ en:
     title: '抱歉，目前服務發生問題'
   live_form_warning:
     notification_content: |
-      這可能會影響所有正同時在填寫表單的使用者。他們可能會失去已提供的答覆，並需要重新填寫表單。
+      可能會影響同時在填寫表單的使用者。可能會遺失部分已填答的答案，或是要從頭開始要重新填寫。
     notification_heading: |
       您對已上線的表單所做的變更，
       會立刻更新到表單中。
@@ -429,7 +429,7 @@ en:
         </p>
 
         <p class="govuk-body">
-        請向收信人詢問信件中的驗證碼，並輸入到下一個步驟。
+        請向收信人詢問信件中的驗證碼，並輸入到下個步驟中。
         </p>
   show_live_form:
     contact_details: '您表單支援服務的連絡資訊'
@@ -444,10 +444,10 @@ en:
     support_email: '電子郵件'
     support_phone: '電話號碼'
     support_url: '線上支援聯絡方式'
-    what_happens_next: '關於下一步的須知'
-    what_happens_next_description: '當使用者完成並送出表單，會顯示下一步的須知。'
+    what_happens_next: '關於表單填寫完成後的說明資訊'
+    what_happens_next_description: '填表者填寫完成並送出表單後，會顯示後續的說明資訊。'
     what_is_declaration: '什麼是宣告事項？'
-    what_is_what_happens_next: '什麼是「下一步的須知」？'
+    what_is_what_happens_next: '什麼是「表單填寫完成後的說明資訊」？'
     draft_create: 建立草稿表單並編輯
   skip_to_main_content: '略過至主要內容'
   status_tag_description_component:
@@ -462,4 +462,4 @@ en:
     draft: 草稿
   make_changes_live:
     url_will_remain_same: 此網址將與上線後表單一致。
-    warning: "表單修改上線後，可能會影響當下正在填表的使用者，可能會遺失部分填答，或是需要從頭開始重新填寫。\n"
+    warning: "表單修改上線後，可能會影響同時在填寫表單的使用者。可能會遺失部分已填答的答案，或是要從頭開始要重新填寫。\n"
