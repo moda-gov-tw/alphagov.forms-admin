@@ -50,6 +50,7 @@ en:
       <p class="govuk-body">我們已經送出驗證碼到您的電子郵件地址：%{temp_email}。</p>
       <p class="govuk-body">請向收件者詢問此驗證碼，請輸入此驗證碼方可驗證此電子郵件地址有效。</p>
     continue: '繼續新增表單'
+    tips: 輸入電子郵件驗證碼
   email_code_success:
     body_html: '<p class="govuk-body">完成的表單會被傳送到：%{submission_email}。</p>
 
@@ -134,6 +135,12 @@ en:
       section_4:
         make_live: 將您的修正上線
         title: 將您的修正上線
+    what_happens_next:
+      new:
+        body_2: 新增一些內容讓使用者知道接下來將發生與何時會發生，以至於能預期接下來發生的事項。
+        example: 範例
+        body_1: 此頁面將會在使用者完成與送出表單後顯示，讓使用者知道已成功的送出。
+        inset_text: 我們將會寄送一封郵件讓您瀏覽其結果。您將在 10 個工作天內收到回覆。
   forms_delete_confirmation_form:
     confirm_deletion_form: '確定要刪除此草稿嗎？'
     confirm_deletion_page: '確定要刪除此頁面嗎？'
