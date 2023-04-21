@@ -4,7 +4,7 @@ class HeaderComponent::HeaderComponentPreview < ViewComponent::Preview
   end
 
   def with_user
-    current_user = OpenStruct.new(name: "A User")
+    current_user = OpenStruct.new(name: "使用者")
     render(HeaderComponent::View.new(current_user))
   end
 end
